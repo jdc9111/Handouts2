@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*font-family: "Raleway", sans-serif;*/
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: white;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.accordion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.accordion-item {
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion-title::after {
+  content: "+";
+  font-size: 40px;
+  margin-left: auto;
+}
+
+.active-header::after {
+  content: "-";
+}
+
+.accordion-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: 500ms ease max-height;
+}
+
+.accordion-logo {
+  width: 200px;
+}
+
+.header {
+  padding: 25px;
+}
+.headerLogo {
+  width: 150px;
+}
+
+.title {
+  margin: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  /*font-weight: 700;*/
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  margin: 10px 0px;
+  padding-left: 10px;
+}
+
+.small-logo {
+  width: 30px;
+}
+
+.footer {
+  color: black;
+  margin-top: 75px;
+  margin-bottom: 250px;
+
+  padding: 40px 15px 40px 15px;
+}
+
+.light {
+  color: lightgray;
+}
+
+.icon {
+  width: 70px;
+}
