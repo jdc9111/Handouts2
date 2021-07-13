@@ -114,9 +114,11 @@ li {
 }
 
 .footer {
+  background-color: rgb(231, 231, 231);
   color: black;
   margin-top: 75px;
   margin-bottom: 250px;
+  border-radius: 4px;
 
   padding: 40px 15px 40px 15px;
 }
@@ -127,4 +129,8 @@ li {
 
 .icon {
   width: 70px;
+}
+
+.erfaster {
+  width: 180px;
 }
